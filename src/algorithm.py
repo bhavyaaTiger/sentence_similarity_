@@ -8,6 +8,8 @@ from nltk.stem import WordNetLemmatizer
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
+nltk.download('stopwords')
+
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Function to preprocess text
