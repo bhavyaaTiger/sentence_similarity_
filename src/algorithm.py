@@ -9,6 +9,8 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
