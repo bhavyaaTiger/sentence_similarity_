@@ -1,7 +1,7 @@
 import requests
 
 
-url = 'http://127.0.0.1:8050/api'
+url = 'https://sentence-similarity-0lr2.onrender.com/api'
 
 data = {
         'text1': 'Apple Inc.',
