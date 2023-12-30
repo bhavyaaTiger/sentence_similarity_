@@ -64,4 +64,4 @@ def handle_api():
         return {'similarity_score': score}
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    server.run(debug=False)
